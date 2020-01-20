@@ -5,9 +5,9 @@ RUN apk update && apk add --no-cache make git python autoconf g++ libc6-compat l
 WORKDIR /usr/src/app
 COPY . .
 
-RUN yarn install
-RUN yarn build
-RUN rm -rf ./src ./node_modules /usr/local/lib/node_modules /usr/local/share/.cache/yarn/
+RUN npm install
+RUN npm build
+RUN rm -rf ./src ./node_modules /usr/local/lib/node_modules /usr/local/share/.cache/npm/
 RUN mkdir -p /run/nginx
 
 FROM nginx:alpine

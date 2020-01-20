@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://jessepollak.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Jesse Pollak',
+  subtitle: 'The personal website for Jesse Pollak',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,25 +25,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Jesse Pollak',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: "👋🏼 I'm the Head of Engineering for the consumer product at Coinbase. We build coinbase.com and the Coinbase iOS & Android apps. We're hiring.",
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
+      email: 'hello@jessepollak.me',
+      facebook: 'https://facebook.com/jessepollak',
+      twitter: 'https://twitter.com/jessepollak',
+      github: 'https://github.com/jessepollak',
+      linkedin: 'https://linkedin.com/jessepollak'
     }
   }
 };
